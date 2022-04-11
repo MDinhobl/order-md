@@ -1,15 +1,5 @@
-library(ggplot2)
-library(gridExtra)
-library(janitor)
-library(tidyverse)
-require(FEAR)
 require(dplyr)
-require(lpSolve)
-require(stats)
-require(kedd)
-library(tidyselect)
-library(writexl)
-library(ggpubr)
+
 
 order_md_score <- function(dataadjusted, ninput, noutput, xi, yi, M = 25, B = 30){
   effinput <- 0
